@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("pizza.jpg");
+    background-image: url("./imagens/pizza.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,12 +80,6 @@ footer {
   align-items: center;
 }
 
-
-.skin-info {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -100,4 +94,13 @@ footer {
 
 .logo {
   margin-left: auto; /* Empurra o logotipo para a extremidade direita */
+}
+
+.borda{
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 400px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none
 }
