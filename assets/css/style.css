@@ -1,17 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url("./imagens/pizza.jpg");
+    background-image: url("/assets/imagens/pizza.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     background-attachment: fixed;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-       "slnt" 0;
 }
 
 
@@ -41,15 +39,18 @@ header{
 }
 
 h1{
-  font-weight: 64;
+  font-weight: 400;
+  font-size: 64;
 }
 
-h1{
-  font-weight: 32;
+h2{
+  font-weight: 400;
+  font-size: 32;
 }
 
 p{
   font-weight: 16;
+  font-size: 16;
 }
 
 button{
