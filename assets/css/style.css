@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("/assets/imagens/pizza.jpg");
+    background-image: url("../imagens/pizza.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
