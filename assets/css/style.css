@@ -21,7 +21,7 @@ header{
 }
 
 #secao-menu{
-  width: 100vh;
+  width: 100vw;
   display: flex;
   text-decoration: none;
   justify-content: center;
