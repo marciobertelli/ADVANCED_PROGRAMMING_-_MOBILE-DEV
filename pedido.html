@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="/assets/js/teste.js" defer></script>
 </head>
 
 <body>
@@ -40,23 +41,23 @@
                 </div>
                 
                 <div class="campo linha">
-                    <label for="qtde">Endereço</label>
+                    <label for="end">Endereço</label>
                     <input type="text" id="endereco">
                 </div>
 
                 <div class="campo">
-                    <label for="qtde">Número</label>
-                    <input type="number" id="qtde" min="1">
+                    <label for="num">Número</label>
+                    <input type="number" id="num" min="1">
                 </div>
                 <div class="campo">
-                    <label for="qtde">Complemento</label>
+                    <label for="complemento">Complemento</label>
                     <input type="text" id="complemento">
                 </div>
 
                 
                 <div class="campo">
-                    <label for="tipo">Pizza 1/2</label>
-                    <select name="tipo1" id="tipo">
+                    <label for="tipo1">Pizza 1/2</label>
+                    <select name="tipo1" id="tipo1">
                         <option value="1">Margarita</option>
                         <option value="2">Mussarela</option>
                         <option value="3">Portuguesa</option>
@@ -64,12 +65,12 @@
                 </div>
 
                 <div class="campo">
-                    <label for="tipo">Pizza 1/2</label>
-                    <select name="tipo2" id="tipo">
+                    <label for="tipo2">Pizza 1/2</label>
+                    <select name="tipo2" id="tipo2">
                         <option value="1">Margarita</option>
                         <option value="2">Mussarela</option>
                         <option value="3">Portuguesa</option>
-                        <option value="4">Nenhuma</option>
+                        <option value="0">Nenhuma</option>
                     </select>
                 </div>
 
@@ -82,11 +83,13 @@
                 </div>
 
                 <div class="campo">
-                    <label for="qtde">Valor</label>
-                    <input type="text" id="troco">
+                    <label for="troco">Valor</label>
+                    <input type="number" id="troco" min="1" >
                 </div>
 
             </form>
+
+            <span id="v_final"></span>
         </div>    
     </section>
         
