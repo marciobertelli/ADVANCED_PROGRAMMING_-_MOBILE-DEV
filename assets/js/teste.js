@@ -20,6 +20,9 @@ function calcular(){
     console.log(tipo1)
     console.log(tipo2)
 
+    const q_troco = document.querySelector("#troco_nao").checked
+    if (q_troco) preco *= 0
+
     if (tipo1 > tipo2) preco *= tipo1 
     if (tipo1 < tipo2) preco *= tipo2
 
